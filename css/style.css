@@ -1,0 +1,250 @@
+body{
+  margin-top:45px;
+  font-size:16px;
+
+  font-family: "Century Gothic","Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+  
+  /* overflow: scroll-; */
+  overflow-x: hidden;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:Poppins;
+}
+
+p{
+  /* font-family:Roboto; */
+
+  font-family: "Century Gothic", sans-serif;
+}
+
+.navbar-default{
+  background:#fff;
+  border:0;
+  font-family:Poppins;
+}
+
+.navbar-brand{
+  font-size:20px;
+  color:#000 !important;
+  font-weight:bold;
+}
+
+#showcase h1{
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+#showcase img{
+  width:90%;
+  /* margin-left:60px; */
+}
+
+#showcase .showcase-right{
+  margin-top:90px;
+}
+
+#testimonial{
+  background:#3c1053;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top:40px;
+  /* margin-bottom: 40px; */
+}
+
+#testimonial:hover{
+  background:#fbb040;
+}
+
+/* .navbar:hover{
+  background:#fbb040;
+  color: #fff !important; */
+
+
+#testimonial p{
+  font-size:18px;
+  font-family: "Century Gothic", sans-serif;
+  color:#fff;
+}
+
+#testimonial p.customer{
+  font-size:20px;
+  color:#666;
+}
+
+#info1 .info-right{
+  margin-top:90px;
+}
+
+#info2{
+  margin:20px 0 60px 0;
+}
+
+#contact{
+  background:url(../img/image3.png);
+  padding:40px;
+  color:#fff;
+  border-top:#333 7px solid;
+  border-bottom:#333 7px solid;
+}
+
+footer{
+  padding:30px;
+}
+
+
+.img-who-we-are{
+  /* width: 39vw; */
+  width: 540px;
+  /* height: 550px; */
+}
+
+.site-footer{
+  background:#3c1053;
+  color: #ffffff;
+}
+
+
+
+@keyframes bounce { 
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-25px); }
+}
+.main-image {
+  animation: bounce 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounceHow { 
+  0% { transform: translateX(0); }
+  100% { transform: translateX(25px); }
+}
+.main-image-how-works {
+  animation: bounceHow 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+@keyframes bounceManufacturing { 
+  0% { transform: translateX(0); }
+  100% { transform: translateX(25px); }
+}
+#img-manufacturing {
+  animation: bounceManufacturing 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+
+
+.showcase-right{
+  color: #3c1053;
+}
+
+.info-right1 p{
+  color: #3c1053;
+}
+.yellow-font-color{
+  color: #fbb040;
+}
+
+.showcase-btn {
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fcb041;
+  border-radius: 50px;
+  box-shadow: 0px 15px 30px 0px rgba(119, 123, 146, 0.1);
+  vertical-align: middle;
+  color: #3c1053;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1em;
+  /* padding: 15.5px 0; */
+  padding-left: 73px;
+  padding-right: 53px;
+  position: relative;
+  /* background-color: transparent;
+  transition: all .4s ease; */
+}
+
+.show-case-style:hover{
+  background: #fcb041;
+  border-color: #fcb041;
+  color: #fff;
+
+}
+
+.show-case-style:hover .fa-play{
+  color: #fff;
+}
+
+.fa-play{
+  color: #fbb040;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transition: all .4s ease;
+}
+
+
+
+.button-play{
+  font-size: 18px;
+    display: block;
+    line-height: 1em;
+    margin-top: 5px;
+}
+.about-titles{
+  margin-bottom: 25px !important;
+  color: #fcb041;
+}
+
+#testimonial:hover .about-titles{
+  color: #3c1053;
+}
+
+#testimonial:hover p{
+  color: #fff;
+}
+
+
+.content-how-it-works{
+  color: #3c1053;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.services-title{
+  margin-bottom: 25px;
+}
+
+#testimonial:hover .services-title{
+  color: #3c1053;
+}
+
+footer a{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #3c1053;
+}
+
+.carousel-wrapper{
+  display: flex;
+  flex-direction: row;
+}
